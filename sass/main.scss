@@ -1,5 +1,7 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/mixin';
+@import './utils/placeholder';
 
 @import './base/common.scss';
 @import './base/container';
@@ -7,8 +9,11 @@
 
 @import './components/hero-btn';
 @import './components/logo';
+@import './components/list-contacts';
+
 @import './components/title';
 @import './components/social-list';
+@import './components/page-nav';
 @import './components/portfolio-btn';
 @import './components/card';
 @import './components/overlay';
